@@ -1,0 +1,16 @@
+{
+  "name": "copy page url",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
